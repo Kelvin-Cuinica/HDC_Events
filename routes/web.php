@@ -7,13 +7,15 @@ Route::get('/', function () {
     $apelido = "Cuinica";
     $profissao = "Desenvolvedor de Software";
     $arr = [1,2,3,4,5];
+    $nomes = ["Jonas", "Marcos", "Alberto", "Maria", "Kimberly"];
 
     return view('welcome', 
         [
             'nome' => $nome, 
             'apelido' => $apelido,
             'profissao' => $profissao,
-            'arr' => $arr
+            'arr' => $arr,
+            'nomes' => $nomes
         ]);
 });
 

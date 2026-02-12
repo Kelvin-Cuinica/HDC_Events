@@ -48,6 +48,12 @@
                 echo $nomeCompleto;
            @endphp
 
+            <!-- Comentario do HTML -->
+            {{-- Este é o comentário do Blade --}}
+
+            @foreach($nomes as $nome)
+                <p><b>Nome</b> {{ $loop->index }}: {{ $nome }}</p>
+            @endforeach
         </div>
     </body>
 </html>
