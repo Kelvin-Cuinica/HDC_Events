@@ -52,7 +52,7 @@
             {{-- Este é o comentário do Blade --}}
 
             @foreach($nomes as $nome)
-                <p><b>Nome</b> {{ $loop->index }}: {{ $nome }}</p>
+                <p><b>Nome</b> {{ $loop->index }}: {{ $nome }} - {{ $profissao }}</p>
             @endforeach
         </div>
     </body>
