@@ -29,6 +29,7 @@
                 <p>O nome é Pedro.</p>
             @elseif ($nome == "Kelvin")
                 <p>O nome é: {{ $nome }} {{ $apelido }}</p>
+                <img src="/img/banner.png" alt="Banner">
             @else
                 <p>O nome não é Pedro.</p>
             @endif
